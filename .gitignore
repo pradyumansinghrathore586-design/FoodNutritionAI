@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+.venv/
+.venv-wsl/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Large downloaded datasets (Food-101 via TFDS)
+data/tfds/*
+!data/tfds/.gitkeep
+*.tar.gz
+*.zip
+
+# Local SQLite databases (user state)
+data/meals.db
+data/*.db
+*.sqlite
+*.sqlite3
+
+# Pytest and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Editor and IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+
+# Local Streamlit settings and secrets
+.streamlit/
+
+# Downloaded datasets and caches
+data/FoodData_Central_csv_2026-10-29/
+data/tfds/
+
+# Experimental and backup models
+models/*backup*
+models/*candidate*
+models/*smoke*
